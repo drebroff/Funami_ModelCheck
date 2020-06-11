@@ -1,0 +1,12 @@
+{
+    "funami_modelcheck_blog": {
+        "column": {
+            "blog_id": true,
+            "Content": true,
+            "title": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<?php /* @var $block Funami\ModelCheck\Block\Crud */ ?>
+
+<div class="container">
+    <div class="row">
+        <h3>Sample Blog Module</h3>
+    </div>
+    <div class="row">
+        <ul>
+            <?php foreach ($block->getBlogs() as $post):?>
+                <tr>
+
+                    <li><a href="<?php echo $block->doBlogViewUrl($post->getData('blog_id')) ?>"><?php echo $post->getTitle() ?></a></li>
+
+                </tr>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>

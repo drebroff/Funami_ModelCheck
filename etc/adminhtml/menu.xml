@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add action="funami_modelcheck/blog/index" id="Funami_ModelCheck::funami_modelcheck_blog" module="Funami_ModelCheck" parent="Funami::top_level" resource="Magento_Backend::content" sortOrder="9999" title="Blog"/>
+	</menu>
+</config>

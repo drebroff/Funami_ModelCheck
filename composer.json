@@ -1,0 +1,26 @@
+{
+    "name": "funami/module-modelcheck",
+    "description": "Model study",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "leayuda@gmail.com",
+            "name": "Dmitrij Rebrov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Funami\\ModelCheck\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
